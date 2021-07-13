@@ -10,12 +10,12 @@ var block_image_object
 function new_image(get_image)
 {
 	fabric.Image.fromURL(get_image,function(Img){
-		lock_image_object=Img
-		lock_image_object.scaleToWidth(block_image_width)
-		lock_image_object.scaleToHeight(block_image_height)
-		lock_image_object.set({top:y_pos,left:x_pos})
-		canvas.add(lock_image_object)
-}
+		block_image_object=Img
+		block_image_object.scaleToWidth(block_image_width)
+		block_image_object.scaleToHeight(block_image_height)
+		block_image_object.set({top:y_pos,left:x_pos})
+		canvas.add(block_image_object)
+	})}
 
  window.addEventListener("keydown", my_keydown);
 
