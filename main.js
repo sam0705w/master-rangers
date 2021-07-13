@@ -1,6 +1,6 @@
 var canvas= new fabric.Canvas("myCanvas")
- block_y=1;
- block_x=1;
+ y_pos=1;
+ x_pos=1;
 
 block_image_width = 350;
 block_image_height = 430;
